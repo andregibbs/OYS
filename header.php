@@ -17,7 +17,7 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-	
+
 	<!--wordpress head-->
 	<?php wp_head(); ?>
 </head>
@@ -25,8 +25,8 @@
 		<!--[if lt IE 8]>
 			<p class="ancient-browser-alert">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a>.</p>
 			<![endif]-->
-			
-			
+
+
 			<div class="container page-container">
 				<?php do_action('before'); ?> 
 				<header role="banner">
@@ -53,7 +53,7 @@
 							<?php } // endif; ?> 
 						</div>
 					</div><!--.site-branding-->
-					
+
 					<div class="row main-navigation">
 						<div class="col-md-12">
 							<nav class="navbar navbar-default" role="navigation">
@@ -65,7 +65,7 @@
 										<span class="icon-bar"></span>
 									</button>
 								</div>
-								
+
 								<div class="collapse navbar-collapse navbar-primary-collapse">
 									<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?> 
 									<?php dynamic_sidebar('navbar-right'); ?> 
@@ -74,6 +74,6 @@
 						</div>
 					</div><!--.main-navigation-->
 				</header>
-				
-				
+
+
 				<div id="content" class="row row-with-vspace site-content">
