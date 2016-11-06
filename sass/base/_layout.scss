@@ -1,0 +1,194 @@
+h1,h2,h3,h4,h5 {
+	text-align: center;
+	font-family: $montserrat;
+}
+
+/* Extra columns for 5 columns */
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.col-xs-15 {
+	width: 20%;
+	float: left;
+}
+@media (min-width: 768px) {
+	.col-sm-15 {
+		width: 20%;
+		float: left;
+	}
+}
+@media (min-width: 992px) {
+	.col-md-15 {
+		width: 20%;
+		float: left;
+	}
+}
+@media (min-width: 1200px) {
+	.col-lg-15 {
+		width: 20%;
+		float: left;
+	}
+}
+
+/* Main layout */
+
+.page-id-29 {
+	font-family:$opensans;
+}
+
+.page-container {
+	width: 100%;
+	border-top: solid 4px $fire-red;
+}
+
+.no-row{
+	padding:0;
+}
+
+.module { 
+	min-height:50px; 
+	position:relative;
+	color: $white;
+	padding: 35px 0;
+
+	@media (min-width: $small-screen) {
+		padding: 69px 0;
+	}
+
+	@media (min-width: 1200px) {
+		padding: 135px 0;
+	}
+
+
+	ul {
+		padding-left: 20px; 
+		list-style-type: square;
+		line-height: 1.5em;
+	}
+
+	p {
+		text-align: justify;
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+
+	h1 {
+		font-size: 41.5px;
+		font-size: 4.15rem;
+	}
+
+}
+
+.module.one{}
+.module.two{}
+.module.three{}
+.module.four{
+
+	p {
+		text-align: center;
+	}
+}
+
+
+
+
+#about-oys {
+	background: url(../img/oys-hq.jpg) no-repeat center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#the-team {
+	background: url(../img/football-together-bg.jpg) no-repeat center;
+	// background-attachment: fixed;
+	background-size: cover;
+}
+
+
+#hero-slideshow .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.main-content {
+	padding:0;
+}
+
+
+.right {
+	float:right;
+
+	h3 {
+		text-align: left;
+	}
+
+}
+
+.left {
+
+	h3 {
+		text-align: left;
+	}
+
+}
+
+.team-profile{
+	background: $white;
+	color: $characoal;
+	margin-bottom: 30px;
+
+	img {
+		width: 100%;
+	}
+
+	.team-profile-text {
+		padding:10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

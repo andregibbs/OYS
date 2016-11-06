@@ -1,0 +1,21 @@
+.site-footer {
+	background: $characoal;
+	color: $white;
+	text-align: center;
+
+	p {
+		margin: 10px 0;
+	}
+}
+
+.footer-content {
+	padding: 15px 0;
+
+	@media (min-width: $medium-screen) {
+		padding: 15px 15%;
+	}
+
+	img {
+		margin: 10px 0;
+	}
+}
