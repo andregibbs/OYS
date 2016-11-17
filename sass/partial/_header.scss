@@ -18,8 +18,11 @@
 	margin:0;
 	border-radius: 0;
 	box-shadow: none;
-	background: none;
 	border: none;
+	background: #000;
+	z-index: 999999;
+	width: 100%;
+	top: 0;
 
 	@media (min-width: 768px) {
 		.navbar-nav {
@@ -50,6 +53,11 @@
 		}
 
 	}
+	
+}
+
+.affix {
+	border-bottom: 4px solid $fire-red;
 }
 
 .new-toggle {
@@ -57,8 +65,25 @@
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	border: none;
+
+
+	&:hover,
+	&:focus {
+		background:none!important;
+		border: none!important;
+	}
+
+	.icon-bar {
+		background-color: $white!important;
+	}
 
 	@media (min-width: $small-screen) {
 		display: none;
 	}
+}
+
+
+.navbar-collapse {
+	border:none;
 }

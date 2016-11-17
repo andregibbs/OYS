@@ -3,6 +3,16 @@ h1,h2,h3,h4,h5 {
 	font-family: $montserrat;
 }
 
+a {
+	color:$mustard;
+
+	&:hover {
+		text-decoration: none;
+		color: $fire-red;
+	}
+}
+
+
 /* Extra columns for 5 columns */
 
 .col-xs-15,
@@ -52,6 +62,18 @@ h1,h2,h3,h4,h5 {
 .no-row{
 	padding:0;
 }
+
+#hero-slideshow .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.main-content {
+	padding:0;
+}
+
+/* Sections */
 
 .module { 
 	min-height:50px; 
@@ -113,16 +135,7 @@ h1,h2,h3,h4,h5 {
 }
 
 
-#hero-slideshow .item img{
-	display: block;
-	width: 100%;
-	height: auto;
-}
-
-.main-content {
-	padding:0;
-}
-
+/* Section Content Areas */
 
 .right {
 	float:right;
@@ -141,23 +154,53 @@ h1,h2,h3,h4,h5 {
 
 }
 
+.service {
+
+	margin: 20px 0;
+
+	img {
+		width: 100%;
+	}
+}
+
 .team-profile{
 	background: $white;
 	color: $characoal;
 	margin-bottom: 30px;
 
-	img {
+	.team-photo img {
 		width: 100%;
 	}
 
 	.team-profile-text {
 		padding:10px;
+
+		span {
+			color: $coldblue;
+		}
 	}
 }
 
 
+p.address-details {
+	margin: 18px 0;
+}
+
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+}
 
 
+// .outer-image {
+// 	padding: 40px;
+// 	border-radius: 50%;
+// 	border: 10px solid;
+
+// 	.contracts{
+// 		color: #f5ad28;
+// 	}
+// }
 
 
 

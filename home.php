@@ -1,4 +1,7 @@
 <?php
+
+include 'sendmail.php';
+
 /**
  * Template Name: Home Page
  * 
@@ -70,51 +73,73 @@ get_header();
 							</p>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-xs-9 right">
-							<h3>Contract Negotiations</h3>
-							<p>
-								We are a fully licensed football agency who works hard for our clients to ensure they are able to get the best deal available. Our in depth knowledge of the F.A and FIFA rules allow our clients to feel confident that they are in the most capable hands. They can be sure that they have the best chance of securing the most lucrative opportunity available.
-							</p>
-							<p>
-								When contract or transfer negotiations take place, it is vital that our clients are represented by registered intermediaries. Our year’s of experience has seen many top players bound by contracts that they are happy and proud of.  That experience has seen players transferred to the appropriate clubs with the contracts that reflect their ability.
-							</p>
+					<div class="service">
+						<div class="row">
+							<div class="col-sm-9 right">
+								<h3>Contract Negotiations</h3>
+								<p>
+									We are a fully licensed football agency who works hard for our clients to ensure they are able to get the best deal available. Our in depth knowledge of the F.A and FIFA rules allow our clients to feel confident that they are in the most capable hands. They can be sure that they have the best chance of securing the most lucrative opportunity available.
+								</p>
+								<p>
+									When contract or transfer negotiations take place, it is vital that our clients are represented by registered intermediaries. Our year’s of experience has seen many top players bound by contracts that they are happy and proud of.  That experience has seen players transferred to the appropriate clubs with the contracts that reflect their ability.
+								</p>
+							</div>
+							<div class="col-xs-12 col-sm-3">
+								<img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/contract.png" alt="">
+							</div>
 						</div>
-						<div class="col-xs-9 left">
-							<h3>Image and branding management</h3>
-							<p>
-								Endorsement promotions and sponsorship deals require careful and scrupulous consideration. Many lucrative deals may arise, however without a thorough knowledge of the market it is almost impossible to maximise a good opportunity. Our team have a thorough knowledge of public and media relations, allowing us to link our clients with the correct products and sponsorship opportunities.
-							</p>
+						<div class="row">
+							<div class="col-sm-9 left">
+								<h3>Image and branding management</h3>
+								<p>
+									Endorsement promotions and sponsorship deals require careful and scrupulous consideration. Many lucrative deals may arise, however without a thorough knowledge of the market it is almost impossible to maximise a good opportunity. Our team have a thorough knowledge of public and media relations, allowing us to link our clients with the correct products and sponsorship opportunities.
+								</p>
+							</div>
+							<div class="col-xs-12 col-sm-3">
+								<img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/target.png" alt="">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-9 right">
+								<h3>Career Advice</h3>
+								<p>
+									At OYS, we believe in being reflective when making life altering decisions. It is imperative to look at all possible avenues when taking a big step in a client’s career. Should our clients seek our guidance on a career move or change, we are committed to giving the best advice and help as possible. Football is a short career and sometimes a bad move can take a prolonged period to correct. OYS believe prevention is better than cure, we will be by our client’s side every step of the way.
+								</p>
+								<p>
+									OYS are surrounded by football people and football professionals. Who better to guide our clients than our experienced team who have seen the best and the worst in the business. Some of the worst experiences can turn out to be the best one’s in the long term. Our aim is to provide our clients with the best and most experienced mentors that can point our professionals in the right direction to a prosperous and successful career.
+								</p>
+							</div>
 
-
+							<div class="col-xs-12 col-sm-3 vcenter">
+								<img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/chat.png" alt="">
+							</div>
 						</div>
-
-						<div class="col-xs-9 right">
-							<h3>Career Advice</h3>
-							<p>
-								At OYS, we believe in being reflective when making life altering decisions. It is imperative to look at all possible avenues when taking a big step in a client’s career. Should our clients seek our guidance on a career move or change, we are committed to giving the best advice and help as possible. Football is a short career and sometimes a bad move can take a prolonged period to correct. OYS believe prevention is better than cure, we will be by our client’s side every step of the way.
-							</p>
-							<p>
-								OYS are surrounded by football people and football professionals. Who better to guide our clients than our experienced team who have seen the best and the worst in the business. Some of the worst experiences can turn out to be the best one’s in the long term. Our aim is to provide our clients with the best and most experienced mentors that can point our professionals in the right direction to a prosperous and successful career.
-							</p>
+						<div class="row">
+							<div class="col-sm-9 left vcenter">
+								<h3>Legal Representation</h3>
+								<p>
+									Our team and associates cover all aspects of legal representation. Whether the issue is a small and relatively minor scenario or a more contentious problem, the OYS team will resolve the matter in its entirety
+								</p>
+							</div>
+							<div class="col-xs-12 col-sm-3">
+								<img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/law.png" alt="">
+							</div>
 						</div>
-						<div class="col-xs-9 left">
-							<h3>Legal Representation</h3>
-							<p>
-								Our team and associates cover all aspects of legal representation. Whether the issue is a small and relatively minor scenario or a more contentious problem, the OYS team will resolve the matter in its entirety
-							</p>
-						</div>
-						<div class="col-xs-9 right">
-							<h3>Financial Advice</h3>
-							<p>
-								Our team have an in depth knowledge on how to help you manage your finances. You will need to secure your future finances and this will become even more apparent once your playing days have ceased.  Our comprehensive knowledge in this sector will be pivotal to your financial gain.
-							</p>
-							<p>
-								From the present to the future, our team can assist you with property projects, savings queries, pension plans, investments, insurance products, tax advice, and accountancy and fund management.
-							</p>
+						<div class="row">
+							<div class="col-sm-9 right">
+								<h3>Financial Advice</h3>
+								<p>
+									Our team have an in depth knowledge on how to help you manage your finances. You will need to secure your future finances and this will become even more apparent once your playing days have ceased.  Our comprehensive knowledge in this sector will be pivotal to your financial gain.
+								</p>
+								<p>
+									From the present to the future, our team can assist you with property projects, savings queries, pension plans, investments, insurance products, tax advice, and accountancy and fund management.
+								</p>
+							</div>
+							<div class="col-xs-12 col-sm-3">
+								<img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/coin.png" alt="">
+							</div>
 						</div>
 					</div>
-
 				</div>
 			</section>
 
@@ -122,47 +147,129 @@ get_header();
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1>The team</h1>
+							<h1>The Team</h1>
 						</div>
-						<div class="col-md-3">
+						<div class="col-sm-6 col-lg-3">
 							<div class="team-profile">
-								<img src="http://placehold.it/250x250">
+								<div class="team-photo">
+									<img src="http://placehold.it/250x250">
+								</div>
 								<div class="team-profile-text">
 									<h3>Liam Bowes</h3>
 									<p>Managing Director<br> 
-										<strong><em>FA Registered Intermediary</em></strong>
+										<span><strong><em>FA Registered Intermediary</em></strong></span>
 									</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-sm-6 col-lg-3">
 							<div class="team-profile">
-								<img src="http://placehold.it/250x250">
+								<div class="team-photo">
+									<img src="http://placehold.it/250x250">
+								</div>
 								<div class="team-profile-text">
 									<h3>Nathaniel Brown</h3>
 									<p>Operations Director</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-sm-6 col-lg-3">
 							<div class="team-profile">
-								<img src="http://placehold.it/250x250">
+								<div class="team-photo">
+									<img src="http://placehold.it/250x250">
+								</div>
 								<div class="team-profile-text">
 									<h3>Jason Green</h3>
 									<p>Head of Player Recruitment<br>
-										<strong><em>FA Registered Intermediary</em></strong>
+										<span><strong><em>FA Registered Intermediary</em></strong></span>
 									</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-sm-6 col-lg-3">
 							<div class="team-profile">
-								<img src="http://placehold.it/250x250">
+								<div class="team-photo">
+									<img src="http://placehold.it/250x250">
+								</div>
 								<div class="team-profile-text">
 									<h3>Igor Mankoka</h3>
 									<p>International Player Consultant</p>
 								</div>
 							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact" class="module five">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Contact</h1>
+						</div>
+						<div class="col-md-6">
+
+							<?php
+							if($sent === true){
+								echo "<h2 class='success--message'>Thanks, your messages has been sucessfully sent.</h2>";
+							}
+							elseif($hasError === true){
+								echo "<ul class='error__list error'>";
+								foreach($errorArray as $key => $val){
+									echo "<li>".ucfirst($key)." field error - $val</li>";
+								}
+								echo "</ul>";
+							}
+							?>
+
+							<form action="index.php#contact" id="contact-form" method="post" data-toggle="validator" role="form">
+								<div class="form-group">
+									<label for="inputName" class="control-label">Name:</label>
+									<input type="text" name="fullname" class="form-control" id="inputName" placeholder="Your Name" required>
+								</div>
+
+								<div class="form-group">
+									<label for="inputTel" class="control-label">Contact Number:</label>
+									<input name="number" type="tel" class="form-control" id="inputTel" placeholder="0000-000-000" required>
+								</div>
+								<div class="form-group">
+									<label for="inputEmail" class="control-label">Email:</label>
+									<input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email" data-error="That email address is invalid" required>
+									<div class="help-block with-errors"></div>
+								</div>
+								<div class="form-group">
+									<label for="inputSubject" class="control-label">Subject:</label>
+									<input type="text" class="form-control" id="inputSubject" placeholder="Subject">
+								</div>
+								<div class="form-group">
+									<label for="inputMessage" class="control-label">Your message:</label>
+									<textarea name="message" class="form-control" id="inputMessage" rows="3"></textarea>
+								</div>
+
+								<div class="form-group">
+									<button name="submitform" type="submit" value="Send" class="btn btn-success">Submit</button>
+								</div>
+							</form>
+						</div>
+
+						<div class="col-md-6">
+							<p class="address-details">
+								Our office is located in vibrant, cosmopolitan Balham. <br>
+								Please see our contact details below:<br><br>
+								Order Your Steps Sports Management Ltd<br>
+								15 Oldridge Road, Third Floor<br>
+								Balham<br> 
+								London<br>
+								SW12 8PL<br><br>
+								Tel: <a href="tel:02080046677">0208 004 6677</a><br>
+								Mobile &amp; Media: <a href="tel:07984677239">07984 677 239</a><br><br>
+								<strong>Please note:</strong> Meetings and consultations are available on an appointment basis only
+							</p>
+						</div>
+						<div class="col-md-12">
+
+							<iframe src="http://mapbuildr.com/frame/zt0vsu" frameborder="0" height="450" width="100%"></iframe>
+							<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.9456168066567!2d-0.15240623099312148!3d51.44817452188543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487605c89fc7da2d%3A0x56e41912107dc31c!2s15+Oldridge+Rd%2C+London+SW12+8PL!5e0!3m2!1sen!2suk!4v1478551018859" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 						</div>
 					</div>
 				</div>
