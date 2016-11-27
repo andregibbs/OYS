@@ -18,27 +18,35 @@ module.exports = function(grunt) {
               files: '**/*.scss',
               tasks: ['sass']
             }
+          },
+          uglify: {
+          my_target: {
+            files: {
+              'js/main.min.js': ['js/main.js']
+            }
           }
-          // browserSync: {
-          //   bsFiles: {
-          //     src : 'css/*.css'
-          //   },
-          //   options: {
-          //     server: {
-          //       baseDir: "./"
-          //     }
-          //   }
-          // }
-        });
+        }
+        //   browserSync: {
+        //    bsFiles: {
+        //     src : 'css/*.css'
+        //   },
+        //   options: {
+        //     server: {
+        //       baseDir: "./"
+        //     }
+        //   }
+        // },
+      });
     
     // These plugins provide necessary tasks.
     
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
     // grunt.loadNpmTasks('grunt-browser-sync');
     
     // Default task
-    grunt.registerTask('default', ['sass', 'watch']);
+    grunt.registerTask('default', ['sass', 'watch', 'uglify']);
 
     
   };

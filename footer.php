@@ -14,16 +14,16 @@
 		<div class="container">
 			<div class="footer-content row">
 				<div class="col-xs-12 col-sm-3">
-					<img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/fa-crest.png">
+					<a href="http://www.thefa.com/"><img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/fa-crest.png"></a>
 				</div>
 				<div class="col-xs-12 col-sm-3">
-					<img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/PL-transparent-txt.png">
+					<a href="https://www.premierleague.com/"><img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/PL-transparent-txt.png"></a>
 				</div>
 				<div class="col-xs-12 col-sm-3">
-					<img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/uefa-logo.png">
+					<a href="http://www.uefa.com/"><img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/uefa-logo.png"></a>
 				</div>
 				<div class="col-xs-12 col-sm-3">
-					<img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/KickItOutDarkBg.jpg">
+					<a href="http://www.kickitout.org/"><img src="http://localhost:8888/OYS/wp-content/uploads/2016/11/KickItOutDarkBg.jpg"></a>
 				</div>
 			</div>
 			<div class="col-xd-12">
